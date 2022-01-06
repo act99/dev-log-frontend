@@ -1,0 +1,7 @@
+.categoryBtn {
+  @apply p-5 font-bold text-gray-200;
+}
+
+.navBar {
+  @apply flex flex-row h-16 w-full bg-slate-800 relative justify-between;
+}

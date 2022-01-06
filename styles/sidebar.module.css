@@ -1,0 +1,35 @@
+.slider {
+  @apply text-sm text-left mt-20;
+}
+
+.detailList {
+  @apply flex flex-row items-center mt-2;
+}
+
+.postingRow {
+  @apply flex flex-row items-center justify-evenly mt-8;
+}
+
+.h3 {
+  @apply text-sm text-center;
+}
+
+.h1 {
+  @apply text-3xl text-center;
+}
+
+.colCenter {
+  @apply text-center items-center;
+}
+
+.categories {
+  @apply flex flex-row text-base justify-between mb-2;
+}
+
+.categoryUl {
+  @apply p-5;
+}
+
+.categoryDiv {
+  @apply mt-16;
+}
