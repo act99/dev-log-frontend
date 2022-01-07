@@ -9,16 +9,17 @@ import { FaReact } from "react-icons/fa";
 
 const Sidebar = () => {
   return (
-    <div className=" text-blue-200 w-80 p-5">
+    <div className="  text-blue-200 w-80 p-5">
       <div className=" text-center font-extrabold text-xl">
-        <Link href={"/"}>
-          <a>
-            <Image src={logo} />
-          </a>
-        </Link>
-
         <div className={styles.slider}>
           <div className="flex flex-col items-center my-10">
+            <div className=" mb-16">
+              <Link href={"/"}>
+                <a>
+                  <Image src={logo} width={200} height={100} />
+                </a>
+              </Link>
+            </div>
             <span className=" text-xs text-center ">
               문제를 해결하지 못하면
             </span>

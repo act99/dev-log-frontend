@@ -1,6 +1,7 @@
 import axios from "axios";
 import { useEffect } from "react";
-
+import Image from "next/image";
+import logo from "../images/logo.jpg";
 const Admin = () => {
   useEffect(() => {
     axios
@@ -9,7 +10,126 @@ const Admin = () => {
   }, []);
   return (
     <div>
-      <h3>어드민</h3>
+      <Image src={logo} width={200} height={100} />
+      <Image src={logo} width={200} height={100} />
+      <Image src={logo} width={200} height={100} />
+      <Image src={logo} width={200} height={100} />
+      <Image src={logo} width={200} height={100} />
+      <Image src={logo} width={200} height={100} />
+      <Image src={logo} width={200} height={100} />
+      <Image src={logo} width={200} height={100} />
+      <Image src={logo} width={200} height={100} />
+      <Image src={logo} width={200} height={100} />
+      <Image src={logo} width={200} height={100} />
+      <Image src={logo} width={200} height={100} />{" "}
+      <Image src={logo} width={200} height={100} />
+      <Image src={logo} width={200} height={100} />
+      <Image src={logo} width={200} height={100} />
+      <Image src={logo} width={200} height={100} />
+      <Image src={logo} width={200} height={100} />
+      <Image src={logo} width={200} height={100} />
+      <Image src={logo} width={200} height={100} />
+      <Image src={logo} width={200} height={100} />
+      <Image src={logo} width={200} height={100} />
+      <Image src={logo} width={200} height={100} />
+      <Image src={logo} width={200} height={100} />
+      <Image src={logo} width={200} height={100} />{" "}
+      <Image src={logo} width={200} height={100} />
+      <Image src={logo} width={200} height={100} />
+      <Image src={logo} width={200} height={100} />
+      <Image src={logo} width={200} height={100} />
+      <Image src={logo} width={200} height={100} />
+      <Image src={logo} width={200} height={100} />
+      <Image src={logo} width={200} height={100} />
+      <Image src={logo} width={200} height={100} />
+      <Image src={logo} width={200} height={100} />
+      <Image src={logo} width={200} height={100} />
+      <Image src={logo} width={200} height={100} />
+      <Image src={logo} width={200} height={100} />{" "}
+      <Image src={logo} width={200} height={100} />
+      <Image src={logo} width={200} height={100} />
+      <Image src={logo} width={200} height={100} />
+      <Image src={logo} width={200} height={100} />
+      <Image src={logo} width={200} height={100} />
+      <Image src={logo} width={200} height={100} />
+      <Image src={logo} width={200} height={100} />
+      <Image src={logo} width={200} height={100} />
+      <Image src={logo} width={200} height={100} />
+      <Image src={logo} width={200} height={100} />
+      <Image src={logo} width={200} height={100} />
+      <Image src={logo} width={200} height={100} />{" "}
+      <Image src={logo} width={200} height={100} />
+      <Image src={logo} width={200} height={100} />
+      <Image src={logo} width={200} height={100} />
+      <Image src={logo} width={200} height={100} />
+      <Image src={logo} width={200} height={100} />
+      <Image src={logo} width={200} height={100} />
+      <Image src={logo} width={200} height={100} />
+      <Image src={logo} width={200} height={100} />
+      <Image src={logo} width={200} height={100} />
+      <Image src={logo} width={200} height={100} />
+      <Image src={logo} width={200} height={100} />
+      <Image src={logo} width={200} height={100} />{" "}
+      <Image src={logo} width={200} height={100} />
+      <Image src={logo} width={200} height={100} />
+      <Image src={logo} width={200} height={100} />
+      <Image src={logo} width={200} height={100} />
+      <Image src={logo} width={200} height={100} />
+      <Image src={logo} width={200} height={100} />
+      <Image src={logo} width={200} height={100} />
+      <Image src={logo} width={200} height={100} />
+      <Image src={logo} width={200} height={100} />
+      <Image src={logo} width={200} height={100} />
+      <Image src={logo} width={200} height={100} />
+      <Image src={logo} width={200} height={100} />{" "}
+      <Image src={logo} width={200} height={100} />
+      <Image src={logo} width={200} height={100} />
+      <Image src={logo} width={200} height={100} />
+      <Image src={logo} width={200} height={100} />
+      <Image src={logo} width={200} height={100} />
+      <Image src={logo} width={200} height={100} />
+      <Image src={logo} width={200} height={100} />
+      <Image src={logo} width={200} height={100} />
+      <Image src={logo} width={200} height={100} />
+      <Image src={logo} width={200} height={100} />
+      <Image src={logo} width={200} height={100} />
+      <Image src={logo} width={200} height={100} />{" "}
+      <Image src={logo} width={200} height={100} />
+      <Image src={logo} width={200} height={100} />
+      <Image src={logo} width={200} height={100} />
+      <Image src={logo} width={200} height={100} />
+      <Image src={logo} width={200} height={100} />
+      <Image src={logo} width={200} height={100} />
+      <Image src={logo} width={200} height={100} />
+      <Image src={logo} width={200} height={100} />
+      <Image src={logo} width={200} height={100} />
+      <Image src={logo} width={200} height={100} />
+      <Image src={logo} width={200} height={100} />
+      <Image src={logo} width={200} height={100} />{" "}
+      <Image src={logo} width={200} height={100} />
+      <Image src={logo} width={200} height={100} />
+      <Image src={logo} width={200} height={100} />
+      <Image src={logo} width={200} height={100} />
+      <Image src={logo} width={200} height={100} />
+      <Image src={logo} width={200} height={100} />
+      <Image src={logo} width={200} height={100} />
+      <Image src={logo} width={200} height={100} />
+      <Image src={logo} width={200} height={100} />
+      <Image src={logo} width={200} height={100} />
+      <Image src={logo} width={200} height={100} />
+      <Image src={logo} width={200} height={100} />{" "}
+      <Image src={logo} width={200} height={100} />
+      <Image src={logo} width={200} height={100} />
+      <Image src={logo} width={200} height={100} />
+      <Image src={logo} width={200} height={100} />
+      <Image src={logo} width={200} height={100} />
+      <Image src={logo} width={200} height={100} />
+      <Image src={logo} width={200} height={100} />
+      <Image src={logo} width={200} height={100} />
+      <Image src={logo} width={200} height={100} />
+      <Image src={logo} width={200} height={100} />
+      <Image src={logo} width={200} height={100} />
+      <Image src={logo} width={200} height={100} />
     </div>
   );
 };

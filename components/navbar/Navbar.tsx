@@ -1,8 +1,42 @@
 import Image from "next/image";
 import Link from "next/link";
+import { useEffect, useState } from "react";
 import logo from "../../images/logo.jpg";
 import styles from "../../styles/navbar.module.css";
 const Navbar = () => {
+  const [scrollPosition, setScrollPosition] = useState(0);
+  const [show, setShow] = useState(true);
+  // const updateScroll = () => {
+  //   setScrollPosition(window.screenY || document.documentElement.scrollTop);
+  // };
+  // const throttle = (callback: Function, delay: number) =>
+  // {
+  //   let timer: ReturnType<typeof setTimeout> | null = null;
+  //   return () =>
+  //   {
+  //     if (timer) return;
+  //     timer = setTimeout(() =>
+  //     {
+  //       callback();
+  //       timer = null;
+  //     }, delay);
+  //   }
+  // }
+  const handleScroll = () => {
+    // console.log(document.body.getBoundingClientRect().top);
+    setScrollPosition(document.body.getBoundingClientRect().top);
+    setShow(document.body.getBoundingClientRect().top > scrollPosition);
+    // console.log(scrollPosition);
+    // console.log(show);
+  };
+
+  useEffect(() => {
+    window.addEventListener("scroll", handleScroll);
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+  }, []);
+  console.log(scrollPosition, show);
   return (
     <div className={styles.navBar}>
       <div className="flex flex-row ml-40">

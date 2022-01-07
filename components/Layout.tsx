@@ -1,16 +1,17 @@
 import Navbar from "./navbar/Navbar";
 import Sidebar from "./navbar/Sidebar";
 import "../styles/layout.module.css";
+import Image from "next/image";
+import logo from "../images/logo.jpg";
+
 const Layout = ({ children }: any) => {
   return (
-    <div className="flex flex-col bg-slate-900">
+    <div className="  w-full h-full">
       <Navbar />
-      {/* 사이더 네비게이션 시작 */}
-      <div className=" relative min-h-screen flex mx-40">
+      <div className=" flex flex-row bg-slate-900 z-1">
         <Sidebar />
-        <div>{children}</div>
+        {children}
       </div>
-      {/* 사이더 네비게이션 시작 */}
     </div>
   );
 };
